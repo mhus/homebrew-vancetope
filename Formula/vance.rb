@@ -4,7 +4,7 @@ class Vance < Formula
   # url + sha256 are rewritten on every `wb release publish` — do not hand-edit.
   url "https://github.com/mhus/vance/releases/download/v0.1.0/vance-foot-0.1.0.jar", using: :nounzip
   sha256 "0000000000000000000000000000000000000000000000000000000000000000"
-  license :cannot_represent # Vance Non-Commercial, Non-Production Copyleft v1.0
+  license "BUSL-1.1" # Business Source License 1.1 → AGPLv3 on 2029-06-23
   depends_on "openjdk@25"
 
   def install

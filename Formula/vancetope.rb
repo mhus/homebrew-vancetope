@@ -3,7 +3,7 @@ class Vancetope < Formula
   homepage "https://github.com/mhus/vance"
   # url + sha256 are rewritten on every `wb release publish` — do not hand-edit.
   url "https://github.com/mhus/vance/releases/download/v0.1.0/vancetope-0.1.0.jar", using: :nounzip
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "f34d5a438abeed5bad8e0810c2380b35357fd8f052a63b4154b44c7225d38fc9"
   license "BUSL-1.1" # Business Source License 1.1 → AGPLv3 on 2029-06-23
   depends_on "openjdk@25"
 

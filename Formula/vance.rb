@@ -11,7 +11,7 @@ class Vance < Formula
     libexec.install "vance-foot-0.1.0.jar" => "vance-foot.jar"
     (bin/"vance").write <<~SH
       #!/bin/bash
-      exec "#{Formula["openjdk@25"].opt_bin}/java" -jar "#{libexec}/vance-foot.jar" "$@"
+      exec "#{Formula["openjdk@25"].opt_bin}/java" --enable-native-access=ALL-UNNAMED -jar "#{libexec}/vance-foot.jar" "$@"
     SH
   end
 

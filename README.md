@@ -4,7 +4,7 @@ Homebrew tap for the **Vancetope** CLI client.
 
 ```bash
 brew install mhus/vancetope/vancetope
-vancetope chat
+vancetope
 ```
 
 The formula ships the Vancetope Spring-Boot fat-jar and a `vancetope` launcher
